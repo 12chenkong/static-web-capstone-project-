@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+.right-image img {
+  width: 40%;
+}
+.navbar img {
+  width: 50px;
+  margin: 1rem;
+}
+nav {
+  background-color: #FBD288;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* min-width: 1040px; */
+}
+.menu {
+  width: 40%;
+}
+
+.navbar img {
+  flex-shrink: 1;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  margin: 2rem;
+  
+}
+
+.menu ul li  {
+  color: white;
+  list-style-type: none;
+}
+
+ul > a {
+  background-color: #ff4545;
+  padding: 0.1rem 0.6rem;
+  border-radius: 4rem;
+  color: white;
+}
+
+.head-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.title h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  width: 400px;
+}
+.title button {
+  margin-top: 1.5rem;
+  padding: 7px;
+  background-color: #ff4545;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.head-wrapper div {
+  margin-top: 2rem;
+}
+.head-wrapper img {
+  width: 400px;
+}
+
+.section-wrapper img {
+  width: 400px;
+}
+.section-wrapper{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.section-title h2{
+  text-align: start;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.section-title ul {
+  display: flex;
+  gap: 7px;
+  flex-direction: column;
+}
+
+.register{
+  display: flex;
+  justify-content: center;
+  background-color: #FFDE4D;
+  padding: 2rem;
+  width: 70%;
+  place-self: center ;
+  
+} 
+.register input{
+  padding: 0.5rem;
+  margin: 0 1rem;
+  border-radius: 2px;
+  border: none;
+}
+.register button{
+  padding:0 1rem;
+  border-radius: 2px;
+  border: none;
+  background-color: #ff4545;
+  color: aliceblue;
+}
+.footer-logo{
+  width: 80px;
+}
+.foot-wrapper{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-bottom: 4rem; */
+  
+}
+footer{
+background-color: #FBD288;
+padding: 7rem 0;
+}
+.fa-brands{
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+.socail h2,.contact h2,.links h2{
+  margin-bottom:1rem;
+  font-weight: bold;
+}
+.inner-wrapper{
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  justify-content: space-around;
+}
+.links .contact .socail{
+  margin-left: 4rem ;
+}
+.links ul{
+  padding-left: 1rem;
+  list-style-type: none;
+  content:"+";
+}
+
+.copyright{
+  text-align: center;
+  margin-top: 4rem;
+  color: grey;
+}
+.section-title ul{
+  padding-left: 1.3rem;
+}
